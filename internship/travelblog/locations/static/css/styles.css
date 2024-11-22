@@ -1,0 +1,162 @@
+/* static/css/styles.css
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+header {
+    background-color: #1e90ff;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+}
+
+#add-location, #locations {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#location-form input, #location-form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#location-form button {
+    padding: 0.7rem;
+    background-color: #1e90ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.location {
+    padding: 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.location img {
+    max-width: 100%;
+    border-radius: 8px;
+} */
+
+
+/* static/css/styles.css */
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    background-color: #eef2f7;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2a9d8f;
+    padding: 1.5rem;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+}
+
+#add-location, #locations {
+    max-width: 900px;
+    margin: 2.5rem auto;
+    padding: 2rem;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+#add-location h2, #locations h2 {
+    font-size: 2rem;
+    color: #2a9d8f;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+#location-form input, #location-form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+#location-form input:focus, #location-form textarea:focus {
+    border-color: #2a9d8f;
+    outline: none;
+}
+
+#location-form button {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: background-color 0.3s;
+}
+
+#location-form button:hover {
+    background-color: #21867a;
+}
+
+.location {
+    padding: 1.5rem;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s;
+}
+
+.location:hover {
+    transform: translateY(-5px);
+}
+
+.location h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.location p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+}
+
+.location img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#status-message {
+    text-align: center;
+    color: #2a9d8f;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
